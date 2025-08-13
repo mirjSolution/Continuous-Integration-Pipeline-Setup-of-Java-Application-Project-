@@ -80,6 +80,8 @@ apt-get install jenkins -y
 
 > This allows Jenkins and other tools to be accessed from your local browser.
 
+![Inbound Rule](Images/inboundrule.png)
+
 ---
 
 ## 🌐 Step 5: Access Jenkins Console
