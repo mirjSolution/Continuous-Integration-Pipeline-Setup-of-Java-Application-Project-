@@ -101,12 +101,18 @@ http://<EC2_PUBLIC_IP>:8080
 
 ## 🔑 Step 6: Get Administrator Password
 
+- On aws console paste the command below
+
 ```bash
 cat /var/lib/jenkins/secrets/initialAdminPassword
 
 ```
 
+![Secret key](Images/secretjenkins.png)
+
 > Retrieves the initial password required to unlock Jenkins.
+
+![Secret key 1](Images/secretjenkins-1.png)
 
 ---
 
