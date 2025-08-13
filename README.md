@@ -174,6 +174,10 @@ Install plugins for:
 
 > These plugins integrate code quality and artifact management into your pipeline.
 
+![plugins 1](Images/plugins2.png)
+
+![plugins](Images/pluginssuccess.png)
+
 ---
 
 ## 🐳 Step 12: Setup Docker
