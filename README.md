@@ -248,6 +248,10 @@ Navigate: `Sonar Dashboard -> Administration -> My Account -> Security -> Create
 
 > Generate a token for Jenkins integration.
 
+![sonar token](Images/sonartoken.png)
+
+![sonar token](Images/sonartoken-1.png)
+
 ### Integrate SonarQube with Jenkins
 
 Navigate: `Sonar Dashboard -> Administration -> Configuration -> Webhooks -> Add` and add:
