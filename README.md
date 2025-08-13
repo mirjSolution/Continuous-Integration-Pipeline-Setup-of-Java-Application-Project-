@@ -62,12 +62,14 @@ echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] https://pkg.jenkins
 ![Jenkins 3](Images/jenkins-3.png)
 
 ```bash
-sudo apt-get update -y
-sudo apt-get install jenkins -y
+apt-get update -y
+apt-get install jenkins -y
 
 ```
 
 > Updates the package lists again and installs Jenkins.
+
+![Jenkins 4](Images/jenkins-4.png)
 
 ---
 
