@@ -254,14 +254,19 @@ Navigate: `Sonar Dashboard -> Administration -> My Account -> Security -> Create
 
 ### Integrate SonarQube with Jenkins
 
-Navigate: `Sonar Dashboard -> Administration -> Configuration -> Webhooks -> Add` and add:
+Navigate: `Sonar Dashboard -> Administration -> Configuration -> Webhooks -> Create`
 
-```
+![webhooks](Images/sonarwebhooks.png)
+
+```bash
 http://<EC2_IP>:8080/sonarqube-webhook/
-
 ```
 
 > Enables automatic SonarQube scans after Jenkins pipeline runs.
+
+![webhooks](Images/sonarwebhooks-1.png)
+
+![webhooks](Images/sonarwebhooks-2.png)
 
 ---
 
