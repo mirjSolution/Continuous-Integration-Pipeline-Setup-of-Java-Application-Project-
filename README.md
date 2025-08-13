@@ -48,7 +48,9 @@ curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key | sudo tee /
 
 ```
 
-> Downloads and adds the Jenkins GPG key for secure package verification.
+> Downloads and adds the Jenkins GPG (GNU Privacy Guard) key for secure package verification.
+
+![Jenkins 2](Images/jenkins-1.png)
 
 ```bash
 echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] https://pkg.jenkins.io/debian-stable binary/ | sudo tee /etc/apt/sources.list.d/jenkins.list > /dev/null
