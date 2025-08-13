@@ -240,6 +240,8 @@ http:<EC2_IP>:9000
 
 ![change](Images/change.png)
 
+![dash](Images/sonarqube-dash.png)
+
 ### Create Sonar Token for Jenkins
 
 Navigate: `Sonar Dashboard -> Administration -> My Account -> Security -> Create token`
