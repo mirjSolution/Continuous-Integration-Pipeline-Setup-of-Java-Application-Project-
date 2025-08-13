@@ -130,8 +130,6 @@ cat /var/lib/jenkins/secrets/initialAdminPassword
 
 > Create an admin user to manage Jenkins securely.
 
-![Create Admin](Images/createadmin-2.png)
-
 ![Create Admin](Images/createadmin-1.png)
 
 ![Start](Images/start.png)
