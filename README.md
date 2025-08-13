@@ -95,6 +95,8 @@ http://<EC2_PUBLIC_IP>:8080
 
 > Jenkins web interface runs on port `8080`.
 
+![Jenkins Console](Images/jenkinsconsole.png)
+
 ---
 
 ## 🔑 Step 6: Get Administrator Password
