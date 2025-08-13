@@ -16,6 +16,8 @@ Welcome to the **CI Pipeline Lab**! This project demonstrates how to set up a co
 
 > Launch an EC2 instance in your AWS account. We choose `t2.medium` for moderate compute power and a 30 GB volume for storage.
 
+![Instance 3](Images/instance-3.png)
+
 ---
 
 ## 🔗 Step 2: Connect to EC2 and Login as Root
