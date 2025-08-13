@@ -20,17 +20,13 @@ Welcome to the **CI Pipeline Lab**! This project demonstrates how to set up a co
 
 ---
 
-## 🔗 Step 2: Connect to EC2 and Login as Root
-
-Use SSH to connect to your EC2 instance. Example:
+## 🔗 Step 2: Connect to EC2 using the AWS Console and Login as Root
 
 ```bash
-ssh -i "your-key.pem" ubuntu@<EC2_PUBLIC_IP>
-sudo su -
-
+sudo su
 ```
 
-> This connects you to the EC2 instance and switches to the root user to run installations with administrative privileges.
+![Connect](Images/connect.png)
 
 ---
 
