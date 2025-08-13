@@ -225,6 +225,8 @@ docker start <containerID>
 
 > Lists all Docker containers and starts SonarQube if it’s not running.
 
+![dockercontainerid](Images/dockercontainerid.png)
+
 ### Login to SonarQube
 
 - **Username:** `admin`
