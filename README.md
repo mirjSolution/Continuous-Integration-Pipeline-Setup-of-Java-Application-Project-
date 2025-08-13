@@ -120,11 +120,19 @@ cat /var/lib/jenkins/secrets/initialAdminPassword
 
 > Jenkins will recommend essential plugins. Install all suggested plugins for smoother setup.
 
+![Install Plugin](Images/installplugin.png)
+
+![Install Plugin](Images/installplugin-1.png)
+
 ---
 
 ## 👤 Step 8: Create First User
 
 > Create an admin user to manage Jenkins securely.
+
+![Create Admin](Images/createadmin.png)
+
+![Create Admin](Images/createadmin-1.png)
 
 ---
 
