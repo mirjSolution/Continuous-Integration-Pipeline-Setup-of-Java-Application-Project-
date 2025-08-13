@@ -59,6 +59,8 @@ echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] https://pkg.jenkins
 
 > Adds the Jenkins repository to Ubuntu so you can install the latest stable version.
 
+![Jenkins 3](Images/jenkins-3.png)
+
 ```bash
 sudo apt-get update -y
 sudo apt-get install jenkins -y
