@@ -229,10 +229,16 @@ docker start <containerID>
 
 ### Login to SonarQube
 
+http:<EC2_IP>:9000
+
 - **Username:** `admin`
 - **Password:** `admin`
 
 > Access the SonarQube dashboard to manage code quality.
+
+![login](Images/login.png)
+
+![change](Images/change.png)
 
 ### Create Sonar Token for Jenkins
 
