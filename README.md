@@ -134,6 +134,10 @@ cat /var/lib/jenkins/secrets/initialAdminPassword
 
 ![Create Admin](Images/createadmin-1.png)
 
+![Start](Images/start.png)
+
+![Success](Images/successjenkins.png)
+
 ---
 
 ## 📦 Step 9: Create a Pipeline Job
