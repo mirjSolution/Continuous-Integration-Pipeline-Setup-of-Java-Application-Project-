@@ -41,6 +41,8 @@ apt install openjdk-17-jre -y
 
 > Updates the package lists, upgrades existing packages, and installs Java 17 runtime, which Jenkins requires.
 
+![Jenkins 1](Images/jenkins-1.png)
+
 ```bash
 curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key | sudo tee /usr/share/keyrings/jenkins-keyring.asc > /dev/null
 
