@@ -26,7 +26,7 @@ Welcome to the **CI Pipeline Lab**! This project demonstrates how to set up a co
 sudo su
 ```
 
-![Connect](Images/connect.png)
+![Connect](Images/connect-1.png)
 
 ---
 
