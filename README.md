@@ -148,7 +148,7 @@ cat /var/lib/jenkins/secrets/initialAdminPassword
 
 ---
 
-## 🔗 Step 10: Configure SCM (GitHub)
+## 🔗 Step 10: Configure Source Code Manager (SCM) (GitHub)
 
 - Repository URL: [Java-App-Sample-1](https://github.com/mirjSolution/Java-App-Sample-1)
 
@@ -198,6 +198,10 @@ docker -v
 
 > Installs Docker CE (Community Edition), checks its status, allows non-root access to Docker, and verifies the installation.
 
+![docker](Images/docker.png)
+
+![docker](Images/docker1.png)
+
 ---
 
 ## 🟢 Step 13: Install SonarQube
@@ -206,6 +210,8 @@ docker -v
 docker run -d --name sonarqube -p 9000:9000 -p 9092:9092 sonarqube
 
 ```
+
+![sonarqube](Images/sonarqube.png)
 
 > Runs SonarQube in a Docker container, exposing ports `9000` and `9092` for web access.
 
