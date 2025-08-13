@@ -144,6 +144,8 @@ cat /var/lib/jenkins/secrets/initialAdminPassword
 
 > Navigate to Jenkins Dashboard -> New Item -> Pipeline and create your first CI pipeline.
 
+![CreatePipe](Images/createpipe.png)
+
 ---
 
 ## 🔗 Step 10: Configure SCM (GitHub)
@@ -151,6 +153,8 @@ cat /var/lib/jenkins/secrets/initialAdminPassword
 - Repository URL: [Java-App-Sample-1](https://github.com/mirjSolution/Java-App-Sample-1)
 
 > Jenkins will pull source code from GitHub to run your CI pipeline.
+
+![Github repo](Images/githubpipe.png)
 
 ---
 
