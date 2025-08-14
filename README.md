@@ -229,7 +229,7 @@ docker start <containerID>
 
 ### Login to SonarQube
 
-http:<EC2_IP>:9000
+http://<EC2_IP>:9000
 
 - **Username:** `admin`
 - **Password:** `admin`
@@ -357,6 +357,8 @@ apt-get install trivy
 
 ![shared](Images/shared-1.png)
 
+![passed](Images/passed.png)
+
 ---
 
 ## ✅ Step 17: Run Pipeline and Verify
@@ -369,7 +371,7 @@ apt-get install trivy
 - Verify Trivy scans for vulnerabilities
 - Review SonarQube dashboard for code quality report
 
-> After running the pipeline, ensure all integrated tools work correctly and the CI/CD process is seamless.
+> After running the pipeline, ensure all integrated tools work correctly and the Continuos Integration process is seamless.
 
 ---
 
