@@ -262,11 +262,11 @@ Navigate: `Sonar Dashboard -> Administration -> Configuration -> Webhooks -> Cre
 http://<EC2_IP>:8080/sonarqube-webhook/
 ```
 
-> Enables automatic SonarQube scans after Jenkins pipeline runs.
-
 ![webhooks](Images/sonarwebhooks-1.png)
 
 ![webhooks](Images/sonarwebhooks-2.png)
+
+> Enables automatic SonarQube scans after Jenkins pipeline runs.
 
 ---
 
@@ -281,16 +281,18 @@ mvn -version
 
 > Maven is a build automation tool for Java. This installs it and verifies the version.
 
+![maven](Images/maven.png)
+
 ---
 
 ## 🔍 Step 15: Install Trivy for Docker Image Scanning
 
 ```bash
-sudo apt-get install wget apt-transport-https gnupg lsb-release
+apt-get install wget apt-transport-https gnupg lsb-release
 wget -qO - https://aquasecurity.github.io/trivy-repo/deb/public.key | sudo apt-key add -
 echo deb https://aquasecurity.github.io/trivy-repo/deb $(lsb_release -sc) main | sudo tee -a /etc/apt/sources.list.d/trivy.list
-sudo apt-get update
-sudo apt-get install trivy
+apt-get update
+apt-get install trivy
 
 ```
 
