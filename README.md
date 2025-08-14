@@ -1,6 +1,6 @@
-# 🚀 CI/CD Pipeline Setup of Java Application Project on AWS EC2 with Jenkins, Docker, Maven and SonarQube
+# 🚀 CI/CD Pipeline Setup of Java Application Project on AWS EC2 with Jenkins, Docker, Maven, Trivy and SonarQube
 
-Welcome to the **CI/CD Pipeline Lab**! This project demonstrates how to set up a continuous integration pipeline of a java application using **Jenkins**, **Docker**, and **SonarQube**, on an **AWS Ubuntu EC2 instance**. Follow these steps carefully to get your CI/CD environment up and running.
+Welcome to the **CI/CD Pipeline Lab**! This project demonstrates how to set up a continuous integration pipeline of a java application using **Jenkins**, **Docker**, **Trivy** and **SonarQube**, on an **AWS Ubuntu EC2 instance**. Follow these steps carefully to get your CI/CD environment up and running.
 
 ---
 
