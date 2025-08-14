@@ -298,34 +298,72 @@ apt-get install trivy
 
 > Trivy scans Docker images for vulnerabilities to ensure secure deployments.
 
+![trivy](Images/trivy.png)
+
 ---
 
 ## 🔧 Step 16: Configure Jenkins Integrations
 
 ### Add SonarQube
 
-- Manage Jenkins -> Configure System -> SonarQube servers
-- Add URL and token (from Step 13.3)
-- Name token: `sonarqube-api`
+- Manage Jenkins -> System -> Look for SonarQube servers
 
-### Add Docker Hub Credentials
+  - Go to this link http://<EC2_IP>:8080/manage/configure
 
-- Jenkins Dashboard -> Manage Jenkins -> Credentials -> System -> Global credentials
-- Add Docker Hub credentials
-- Name: `docker`
+![sonarserver](Images/sonarserver.png)
+
+- Name token: sonar-api
+- Server URL: http://<EC2_IP>:9000
+- Click Add Token
+
+![jenkins integ](Images/jenkinsinteg.png)
+
+- There will be new window modal will appear after clicking the add button
+- Kind: Select -> Secret text
+- Secret: Paste the secret key that we generated earlier
+- ID: sonarqube-api
+
+![jenkins integ](Images/jenkinsinteg-1.png)
+
+- After saving you will be back on the previous windows on you now can select the "sonarqube-api" on the server authentication token then click save
+
+![jenkins integ](Images/jenkinsinteg-2.png)
+
+### Add Docker Hub Credentials (make sure to create or you have one)
+
+- Jenkins Dashboard -> Manage Jenkins -> Credentials -> System -> Global credentials or go to this link -> http://<EC2_IP>:8080/manage/credentials/
+
+![setup docker](Images/setupdockercred.png)
+
+![setup docker](Images/setupdockercred-1.png)
+
+![setup docker](Images/setupdockercred-2.png)
+
+![setup docker](Images/setupdockercred-3.png)
+
+![setup docker](Images/setupdockercred-4.png)
 
 ### Add Jenkins Shared Library
 
-- Manage Jenkins -> Configure System -> Global Pipeline Library
+- Manage Jenkins -> Configure System -> Global Trusted Pipeline Libraries -> or go to -> http://<EC2_IP>:8080/manage/configure
+
+![shared](Images/shared.png)
+
 - Name: `my-shared-library`
 - Default Version: `main`
-- Git: [JENKINS-SHARED-LIBRARY](https://github.com/mirjSolution/JENKINS-SHARED-LIBRARY)
+- Git: https://github.com/mirjSolution/JENKINS-SHARED-LIBRARY
 
-> These configurations integrate all tools into Jenkins for a complete CI/CD pipeline.
+> These configurations integrate all tools into Jenkins for a complete Continuous Integration pipeline.
+
+![shared](Images/shared-1.png)
 
 ---
 
 ## ✅ Step 17: Run Pipeline and Verify
+
+![pipeline](Images/pipeline-1.png)
+
+![pipeline](Images/pipeline-2.png)
 
 - Check Jenkins logs for build status
 - Verify Trivy scans for vulnerabilities
