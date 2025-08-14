@@ -392,3 +392,8 @@ apt-get install trivy
 ---
 
 💡 **Tip:** Always keep your EC2 security group and Docker containers secured when exposing services to the internet.
+
+---
+
+🧑‍💻 _Created by Rico John Dato-on_
+🔗 [LinkedIn](https://www.linkedin.com/in/rico-john-dato-on) • [Portfolio](https://ricodatoon.netlify.app)
