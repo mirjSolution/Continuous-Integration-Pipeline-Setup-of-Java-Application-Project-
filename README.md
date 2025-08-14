@@ -1,6 +1,6 @@
-# 🚀 Continuous Integration Pipeline Setup of Java Application Project on AWS EC2 with Jenkins, Docker, Maven, Trivy and SonarQube
+# 🚀 CI/CD Pipeline Setup of Java Application Project on AWS EC2 with Jenkins, Docker, Maven, Trivy and SonarQube
 
-Welcome to the **CI Pipeline Lab**! This project demonstrates how to set up a continuous integration pipeline of a java application using **Jenkins**, **Docker**, **SonarQube**, and **Trivy** on an **AWS Ubuntu EC2 instance**. Follow these steps carefully to get your CI environment up and running.
+Welcome to the **CI/CD Pipeline Lab**! This project demonstrates how to set up a continuous integration pipeline of a java application using **Jenkins**, **Docker**, **SonarQube**, and **Trivy** on an **AWS Ubuntu EC2 instance**. Follow these steps carefully to get your CI/CD environment up and running.
 
 ---
 
@@ -357,8 +357,6 @@ apt-get install trivy
 
 ![shared](Images/shared-1.png)
 
-![passed](Images/passed.png)
-
 ---
 
 ## ✅ Step 17: Run Pipeline and Verify
@@ -366,6 +364,8 @@ apt-get install trivy
 ![pipeline](Images/pipeline-1.png)
 
 ![pipeline](Images/pipeline-2.png)
+
+![passed](Images/passed.png)
 
 - Check Jenkins logs for build status
 - Verify Trivy scans for vulnerabilities
