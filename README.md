@@ -365,7 +365,7 @@ apt-get install trivy
 
 ![pipeline](Images/pipeline-2.png)
 
-![passed](Images/passed.png)
+![passed](Images/passed-2.png)
 
 - Check Jenkins logs for build status
 - Verify Trivy scans for vulnerabilities
